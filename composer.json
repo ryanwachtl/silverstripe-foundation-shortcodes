@@ -1,0 +1,24 @@
+{
+	"name": "rywa/silverstripe-foundation-shortcodes",
+	"type": "silverstripe-module",
+	"description": "Render ZURB Foundation 4 CSS components with Shortcodes",
+	"keywords": ["silverstripe", "foundation", "zurbfoundation", "prototyping", "theme"],
+	"license": "MIT Open Source License",
+	"authors": [{
+		"name": "Ryan Wachtl",
+		"homepage": "http://ryanwachtl.com"
+	}],
+	"require": {
+		"silverstripe/framework": ">=3.1.x-dev,<4.0"
+	},
+	"suggest": {
+		"rywa/silverstripe-foundation": "Base prototyping theme based on ZURB Foundation 4",
+		"rywa/silverstripe-foundation-forms": "ZURB Foundation 4 compatible forms"
+	},
+	"extra": {
+		"installer-name": "foundationshortcodes"
+	},
+	"support": {
+		"issues": "https://github.com/ryanwachtl/silverstripe-foundation-shortcodes/issues"
+	}
+}
